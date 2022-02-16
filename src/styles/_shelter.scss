@@ -1,0 +1,162 @@
+/*------------------------
+      MY SHELTER
+--------------------------*/
+.my-shelter {
+  width: 75%;
+  margin: 30px auto 30px auto;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.2)
+  );
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.6);
+  padding: 30px 60px 30px 60px;
+  border-radius: 15px;
+}
+.my-shelter-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.my-shelter-title {
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  color: $special-color;
+}
+
+.my-shelter-container {
+  display: flex;
+  width: 100%;
+}
+
+.my-shelter-img {
+  width: 30%;
+  border-radius: 15px;
+}
+.my-shelter-descr {
+  width: 70%;
+  text-align: justify;
+  margin-left: 70px;
+}
+.marker {
+  height: 40px;
+  margin-right: 20px;
+}
+.my-shelter-links {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  justify-content: space-evenly;
+}
+.link-container {
+  display: flex;
+  align-items: center;
+}
+.my-shelter-link:hover {
+  color: black;
+}
+
+/*------------------------
+       CREATE BUNNY CONTAINER
+  --------------------------*/
+.create-bunny-container {
+  width: 75%;
+  margin: 30px auto 30px auto;
+  padding: 30px 0 30px 0;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.2)
+  );
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.6);
+  padding: 30px 60px 30px 60px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.create-bunny-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.open-create-bunny-btn {
+  font-size: 20px;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 3px 3px 15px rgba(122, 122, 122, 0.6);
+}
+.btn-container-close {
+  display: flex;
+  justify-content: flex-end;
+}
+.close-create-bunny-btn {
+  display: flex;
+
+  justify-content: center;
+  width: 150px;
+  font-size: 20px;
+  border-radius: 15px;
+  color: white;
+}
+.first-row {
+  display: flex;
+}
+.create-bunny-label {
+  font-size: 10px;
+}
+.create-bunny-input {
+  font-size: 18px;
+  outline: none;
+}
+.my-shelter-create-new-bunny-btn {
+  width: 300px;
+  font-size: 20px;
+  border-radius: 15px;
+  color: white;
+}
+.flex-container-create-bunny-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*------------------------
+       MY SHELTER BUNNIES
+  --------------------------*/
+.my-shelter-bunnies {
+  width: 40%;
+  margin: 30px auto 30px auto;
+}
+.my-shelter-entry {
+  align-items: center;
+  justify-content: space-evenly;
+}
+.my-shelter-info-list {
+  width: 40%;
+  flex-direction: row;
+}
+.delete-my-own-bunny-btn {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 100px;
+  font-size: 18px;
+  border-radius: 15px;
+  color: white;
+  margin-top: 40px;
+}
+
+/*--------------------------
+        SHELTER MAP
+  ------------------------*/
+
+.title-our-bunnies {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.my-shelter-link {
+  margin-left: 15px;
+}

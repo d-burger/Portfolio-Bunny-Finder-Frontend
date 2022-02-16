@@ -1,0 +1,84 @@
+/*------------------------
+      RESULTS
+--------------------------*/
+.division {
+  margin: 1rem 0rem 1rem 0rem;
+  background-color: rgb(68, 206, 211);
+  border: rgb(102, 178, 197);
+  height: 3px;
+  padding: 1px;
+}
+.amount-bunnies {
+  color: rgb(68, 206, 211);
+  font-weight: bold;
+}
+.results {
+  width: 75%;
+  min-width: 1100px;
+  max-width: 1300px;
+  margin: 50px auto 0 auto;
+  color: #2c2c2c;
+}
+
+.title-results {
+  width: 100%;
+  text-align: center;
+}
+
+.results h1 {
+  padding: 2rem 0rem 2rem 0rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.entry {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.2)
+  );
+  box-shadow: 3px 3px 15px rgba(122, 122, 122, 0.6);
+  padding: 30px 30px 30px 20px;
+  border-radius: 15px;
+  border: 1px solid rgba(68, 206, 211, 0.5);
+  margin-bottom: 30px;
+}
+
+.entry img {
+  border-radius: 1rem;
+  max-height: 190px;
+  max-width: 253px;
+  min-height: 190px;
+  min-width: 253px;
+}
+.info {
+  width: 50%;
+  display: flex;
+  margin-left: 30px;
+}
+.info-right {
+  margin-left: 30px;
+}
+.info h2 {
+  font-weight: 400;
+  font-size: 18px;
+}
+.results a {
+  text-decoration: none;
+  color: rgb(49, 49, 49);
+}
+.shelter-link {
+  color: rgb(42, 195, 200);
+}
+
+.distance {
+  display: flex;
+  justify-content: flex-end;
+  width: 20%;
+  font-size: 18px;
+}
+.distance h3 {
+  font-weight: 500;
+  font-size: 18px;
+}

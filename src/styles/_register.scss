@@ -1,0 +1,57 @@
+/*--------------------
+      REGISTER
+--------------------*/
+.register-form-bunny-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 750px;
+  margin-top: 50px;
+}
+.register-form-bunny {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 750px;
+  margin: 50px 0px 60px 60px;
+  width: 30%;
+
+  border-radius: 15px;
+  color: $main-color;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.2)
+  );
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.6);
+  padding: 30px 60px 30px 60px;
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.register-line {
+  margin-bottom: 20px;
+
+  width: 480px;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-label {
+  font-size: 1.3rem;
+}
+.form-control {
+  width: 300px;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: black;
+  padding: 5px;
+}
+.sbmt-btn {
+  border-radius: 15px;
+  margin-top: 20px;
+  width: 250px;
+}

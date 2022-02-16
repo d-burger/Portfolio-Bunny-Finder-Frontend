@@ -1,0 +1,71 @@
+/*------------------------
+      SEARCH
+--------------------------*/
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 60px;
+  margin-left: 80px;
+  border-radius: 15px;
+  color: $main-color;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.2)
+  );
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.6);
+  padding: 30px 60px 30px 60px;
+}
+.search-title {
+  color: black;
+  font-size: 25px;
+  letter-spacing: 0.5px;
+}
+.search h3 {
+  color: black;
+}
+
+.search-form {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+input {
+  border: 2px solid $special-color;
+  color: $special-color;
+  font-size: 1.7rem;
+  font-weight: bold;
+  border-radius: 1rem 0 0 1rem;
+  outline: none;
+  text-align: center;
+  width: 80%;
+  padding: 3px 16px 3px 16px;
+}
+
+input::placeholder {
+  color: rgb(175, 175, 175);
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+}
+
+button {
+  padding: 3px 16px 3px 16px;
+  font-size: 1.7rem;
+  cursor: pointer;
+  border-radius: 0 1rem 1rem 0;
+  background-color: $special-color;
+  color: $main-color;
+  border: 2px solid $special-color;
+}
+.submitBtn {
+  color: white;
+}
+.kaninchen {
+  color: $special-color;
+}

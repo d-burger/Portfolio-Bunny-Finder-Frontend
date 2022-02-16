@@ -1,0 +1,56 @@
+/*------------------------
+      LOGIN
+------------------------*/
+.login-form-bunny-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 370px;
+  margin-top: 50px;
+}
+
+.login-form-bunny {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 370px;
+  margin: 50px 0px 60px 60px;
+  width: 30%;
+
+  border-radius: 15px;
+  color: $main-color;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.2)
+  );
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.6);
+  padding: 30px 60px 30px 60px;
+}
+
+.flex-helper {
+  display: flex;
+  flex-direction: column;
+}
+.login-btn-bunny {
+  display: flex;
+
+  justify-content: center;
+  width: 150px;
+  font-size: 20px;
+  border-radius: 15px;
+  color: white;
+}
+.highlight-link {
+  color: $special-color;
+  font-weight: bold;
+}
+
+.create-bunny-label {
+  font-size: 20px;
+}
+.create-bunny-input {
+  font-size: 18px;
+  outline: none;
+}

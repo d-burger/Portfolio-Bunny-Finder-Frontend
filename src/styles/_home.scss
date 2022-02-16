@@ -1,0 +1,20 @@
+/*------------------------
+      HOME
+--------------------------*/
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.landing-cover {
+  width: 100%;
+}
+.landing-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}

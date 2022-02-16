@@ -1,0 +1,22 @@
+/*------------------------
+     FOOTER
+--------------------------*/
+.footer {
+  position: fixed;
+  z-index: -1;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.copyright-footer {
+  margin-right: 10px;
+  margin-top: 30px;
+  letter-spacing: 1px;
+}
+.bunny-logo-footer {
+  height: 70px;
+}
