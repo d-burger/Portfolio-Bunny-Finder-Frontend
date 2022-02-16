@@ -1,6 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import ClipLoader from "react-spinners/ClipLoader";
 import { css } from "@emotion/react";
 
@@ -63,9 +64,11 @@ const ShelterList = ({
                     <h2>{shelter.shelter.shelter_address}</h2>
                     <button
                       className="delete-my-own-bunny-btn btn-effect"
-                      onClick={() => handleProfileLink(shelter.shelter)}
+                      // onClick={() => handleProfileLink(shelter.shelter)}
                     >
-                      Profilseite
+                      <Link to={`/tierheime/${shelter.shelter._id}`}>
+                        Profilseite
+                      </Link>
                     </button>
                   </div>
                 </div>
